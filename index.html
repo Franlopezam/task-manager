@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestor de tareas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Mis tareas</h1>
+    <form id="taskForm">
+      <input id="taskInput" placeholder="Escribe una tarea..." autocomplete="off">
+      <button>Agregar</button>
+    </form>
+    <div class="toolbar">
+      <button data-filter="all">Todas</button>
+      <button data-filter="pending">Pendientes</button>
+      <button data-filter="done">Terminadas</button>
+    </div>
+    <ul id="taskList"></ul>
+    <p id="count"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

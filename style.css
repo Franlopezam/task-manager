@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin:0; font-family:Arial,sans-serif; background:#eef2f7; color:#172033; }
+.app { max-width:650px; margin:60px auto; padding:28px; background:white; border-radius:16px; box-shadow:0 10px 30px #0001; }
+form { display:flex; gap:8px; }
+input { flex:1; padding:12px; border:1px solid #ccd3df; border-radius:8px; }
+button { padding:10px 14px; border:0; border-radius:8px; cursor:pointer; }
+form button { background:#2563eb; color:white; }
+.toolbar { display:flex; gap:8px; margin:18px 0; }
+#taskList { padding:0; list-style:none; }
+.task { display:flex; align-items:center; gap:10px; padding:12px; border-bottom:1px solid #e8ebf0; }
+.task span { flex:1; }
+.task.done span { text-decoration:line-through; opacity:.5; }
+.delete { background:#fee2e2; color:#991b1b; }
